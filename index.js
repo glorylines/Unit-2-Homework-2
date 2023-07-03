@@ -1,4 +1,10 @@
-// let firstName = prompt("Ваше имя:");
+// // let firstName = prompt("Ваше имя:");
+// let firstName = null;
+
+// while (!firstName || !isNaN(firstName)) {
+//   firstName = prompt("Ваше имя:");
+// }
+
 // let surname = prompt("Ваша фамилия:");
 // let fatherName = prompt("Ваше отчество:");
 
@@ -28,6 +34,11 @@
 
 // ОСНОВНОЕ ЗАДАНИЕ
 
+// let firstName = null;
+
+// while (!firstName || !isNaN(firstName)) {
+//   firstName = prompt("Ваше имя:");
+// }
 
 // Задание-1
 
@@ -37,7 +48,7 @@
 // let codeWord4 = "липкие";
 // let codeWord5 = "?!";
 
-// let cipher = "б" + "е" + "г" + "и" + "!";
+// let cipher = codeWord1.charAt(1) + codeWord2.charAt(1) + codeWord3.charAt(1) + codeWord4.charAt(1) + codeWord5.charAt(1);
 // alert(cipher);
 
 
